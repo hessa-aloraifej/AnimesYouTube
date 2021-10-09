@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="30dp">
+
+
+    <LinearLayout
+        android:id="@+id/llCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:text="Button"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
